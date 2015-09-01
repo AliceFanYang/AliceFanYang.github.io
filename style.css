@@ -10,7 +10,7 @@ body {
 }
 
 div {
-    text-align: center;
+    align: center;
 }
 
 h1 {
@@ -34,7 +34,7 @@ input[type="submit"] {
 
 .profile-circular {
     background: url('/img/profile-picture.jpeg');
-    text-align: center;
+    background-size: cover;
     height: 250px;
     width: 250px;
     border-radius: 50% 50% 50% 50%; 
