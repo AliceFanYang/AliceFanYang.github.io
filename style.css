@@ -9,22 +9,18 @@ body {
     font-family: Helvetica;
 }
 
-div {
-    align: center;
-}
-
 h1 {
     font-size: 5em;
 }
 
 p {
-    font-size: 24px;
+    font-size: 3em;
 }
 
 input {
     border: 0;
     padding: 12px;
-    font-size: 18px;
+    font-size: 2em;
 }
 
 input[type="submit"] {
