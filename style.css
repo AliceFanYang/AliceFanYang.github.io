@@ -10,14 +10,7 @@ body {
 }
 
 div {
-    align: center;
-}
-
-div.profile-circular{
-    background: url('/img/profile-picture.jpeg');
-    height: 250px;
-    width: 250px;
-    border-radius: 50% 50% 50% 50%;  
+    text-align: center;
 }
 
 h1 {
@@ -39,4 +32,10 @@ input[type="submit"] {
     color: black;
 }
 
-
+.profile-circular {
+    background: url('/img/profile-picture.jpeg');
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50% 50% 50% 50%; 
+}
