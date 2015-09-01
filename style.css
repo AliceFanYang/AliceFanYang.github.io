@@ -9,8 +9,12 @@ body {
     font-family: Helvetica;
 }
 
+div {
+    align: center;
+}
+
 h1 {
-    font-size: 4em;
+    font-size: 5em;
 }
 
 p {
@@ -29,7 +33,7 @@ input[type="submit"] {
 }
 
 .profile-circular {
-	background: url('/img/profile-picture.jpeg');
+    background: url('/img/profile-picture.jpeg');
     height: 250px;
     width: 250px;
     border-radius: 50% 50% 50% 50%; 
