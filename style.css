@@ -7,43 +7,49 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-    font-family: Helvetica;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-    font-size: 4em;
-}
-
-p {
     font-size: 2em;
 }
 
+p {
+    font-size: 1em;
+}
+
 section {
-    display: block;
-    margin: 0 auto;
+    margin: 40px auto 40px auto;
 }
 
 form {
     display: block;
-    width: 300px;
+    width: 350px;
     margin: 0 auto;
+    font-size: 0.8em;
 }
 
 input,
 textarea {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
     display: block;
     width: 100%;
-    border: 0;
-    padding: 12px;
-    margin: 3px;
-    font-size: 1em;
+    padding: 10px;
+    border: 0;  
+    margin-bottom: 10px;
+    font-size: 100%;
 }
 
 input[type="submit"] {
-    float: right;
-    width: 30%;
     background: pink;
     color: black;
+    width: 30%; 
+    padding: 10px 20px;
+    float: right; 
+    text-transform: uppercase;
+    font-size: 100%;
 }
 
 .profile-circular {
