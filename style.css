@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background: url('/img/background-image.jpg');
+    background: <a href='/img/background-image.jpg'/>;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -17,21 +18,30 @@ p {
     font-size: 2em;
 }
 
-form { 
+section {
     display: block;
+    margin: 0 auto;
+}
 
+form {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
 }
 
 input,
 textarea {
-    float: right;
-    clear: both;
+    display: block;
+    width: 100%;
     border: 0;
     padding: 12px;
+    margin: 3px;
     font-size: 1em;
 }
 
 input[type="submit"] {
+    float: right;
+    width: 30%;
     background: pink;
     color: black;
 }
