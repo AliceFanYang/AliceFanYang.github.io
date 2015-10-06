@@ -17,6 +17,10 @@ p {
     font-size: 2em;
 }
 
+form { 
+    display: block;
+}
+
 input {
     border: 0;
     padding: 12px;
