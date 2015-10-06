@@ -19,10 +19,13 @@ p {
 
 form { 
     display: block;
+
 }
 
-input {
-    display: block;
+input,
+textarea {
+    float: right;
+    clear: both;
     border: 0;
     padding: 12px;
     font-size: 1em;
