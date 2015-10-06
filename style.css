@@ -22,6 +22,7 @@ form {
 }
 
 input {
+    display: block;
     border: 0;
     padding: 12px;
     font-size: 1em;
