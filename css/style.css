@@ -1,0 +1,142 @@
+/*body {
+    text-align: center;
+    background: url('/img/background-image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;         
+}*/
+body {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+}
+
+section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fullPage {
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+/* ------- landing -------- */
+#landing {
+    margin-top: 0vh;                                                                    
+    background-color: blue;  /* ----- background ----- */
+    /*background: url('/img/background-image.jpg');*/
+}
+
+.profile-circular {
+    background: url('/img/profile-picture.jpeg');
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 50% 50% 50% 50%; 
+}
+
+.icon {
+    color: white;
+    margin: 1%;
+}
+
+.icon:hover {
+    color: pink;
+}
+
+#icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* ------- contact -------- */
+#contact {
+    margin-top: 100vh;  
+    background-color: black;
+    align: center;   
+}
+
+#particles {    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/*canvas{
+    position: relative;
+    display: block;
+    vertical-align: bottom;
+    z-index: 2;
+}*/
+
+/* ------- form -------- */
+.form {
+    position: absolute;
+    margin: 40px auto 120px auto;
+    left: 30vw;
+    top: 30vh;
+    width: 350px;
+    font-size: 0.8em;
+    z-index: 5;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;  
+    margin-bottom: 10px;
+    font-size: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+input[type="submit"] {
+    background: pink;
+    color: white;
+    width: 30%; 
+    padding: 10px 20px;
+    float: right; 
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}
